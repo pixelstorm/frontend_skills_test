@@ -445,3 +445,10 @@ img::-moz-selection {
 body {
 	webkit-tap-highlight-color: $brand-primary;
 }
+
+/**
+ * Custom CSS
+ */
+.center-block {
+	float: none;
+}
