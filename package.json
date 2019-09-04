@@ -1,0 +1,13 @@
+{
+	"name": "frontend_skills_test",
+	"version": "1.0.0",
+	"author": "Satrya",
+	"homepage": "https://idenovasi.com.com/",
+	"devDependencies": {
+		"grunt": "~1.0.4",
+		"grunt-contrib-connect": "^2.1.0",
+		"grunt-contrib-watch": "^1.1.0",
+		"grunt-sass": "^3.1.0",
+		"jit-grunt": "^0.10.0"
+	}
+}
