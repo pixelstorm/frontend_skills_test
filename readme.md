@@ -68,6 +68,9 @@ Make sure that the header image stretches to fix the containing div. The client 
 ### Step 15
 Add a parallax effect to the header image
 
+### Step 16 
+Make a pull request
+
 Additional Step if Required: WordPress Developer
 Please contact us before continuing at this point.
 
