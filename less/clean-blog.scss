@@ -71,6 +71,11 @@ hr.small {
 	z-index: 3;
 	.navbar-brand {
 		font-weight: 800;
+
+		img {
+			max-width: 40px;
+			cursor: pointer;
+		}
 	}
 	.nav {
 		li {
