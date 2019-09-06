@@ -75,6 +75,12 @@ hr.small {
 
 .navbar-custom .navbar-brand {
   font-weight: 800;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.navbar-custom .navbar-brand > img {
+  height: 40px;
 }
 
 .navbar-custom .navbar-brand:hover, .navbar-custom .navbar-brand:focus {

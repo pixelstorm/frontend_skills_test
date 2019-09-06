@@ -64,6 +64,12 @@ hr.small {
 	z-index: 3;
 	.navbar-brand {
 		font-weight: 800;
+		padding-top: 5px; 
+		padding-bottom: 5px; 
+
+		> img {
+			height: 40px; 
+		}
 		&:hover,
 		&:focus {
 			color: $brand-primary;
