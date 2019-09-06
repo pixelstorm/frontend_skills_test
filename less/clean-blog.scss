@@ -176,7 +176,7 @@ hr.small {
 		padding: 10px 0 50px;
 		color: white;
 		width: 100%; 
-		 
+		
 		@media only screen and (min-width: 768px) {
 			padding: 10px 0;
 		}
@@ -188,6 +188,7 @@ hr.small {
 		text-align: center;
 		h1 {
 			margin-top: 0;
+			@include  sans-serif();
 			@include fluid-type(font-size, 320px, 768px, 50px, 80px);
 
 		}
@@ -197,6 +198,8 @@ hr.small {
 			display: block;
 			font-weight: 300;
 			margin: 10px 0 0;
+			@include  sans-serif();
+
 			@include fluid-type(font-size, 320px, 768px, 18px, 24px);
 		}
  
@@ -214,6 +217,7 @@ hr.small {
 		.subheading {
 			margin: 10px 0 30px;
 			font-weight: 600;
+			@include  sans-serif();
 			@include fluid-type(font-size, 320px, 768px, 18px, 24px);
 		}
 		.meta {
@@ -242,11 +246,13 @@ hr.small {
 		> .post-title {
 			margin-top: 30px;
 			margin-bottom: 10px;
+			@include  sans-serif();
 			@include fluid-type(font-size, 320px, 768px, 30px, 36px);
 		}
 		> .post-subtitle {
 			margin: 0;
 			font-weight: 300;
+			@include  sans-serif();
 			margin-bottom: 10px;
 		}
 	}
