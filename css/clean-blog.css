@@ -485,6 +485,22 @@ form .row:first-child .floating-label-form-group {
   cursor: not-allowed;
 }
 
+ul.social-network {
+  list-style: none;
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+
+ul.social-network li {
+  display: inline-block;
+  margin: 0;
+}
+
+ul.social-network li > a {
+  display: inline-block;
+}
+
 ::-moz-selection {
   color: white;
   text-shadow: none;
