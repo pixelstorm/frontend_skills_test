@@ -40,6 +40,8 @@ h6 {
 
 a {
   color: #404040;
+  -webkit-transition: color .5s ease;
+  transition: color .5s ease;
 }
 
 a:hover, a:focus {
@@ -90,6 +92,8 @@ hr.small {
   .navbar-custom .navbar-brand {
     color: white;
     padding: 20px;
+    -webkit-transition: color .5s ease;
+    transition: color .5s ease;
   }
   .navbar-custom .navbar-brand:hover, .navbar-custom .navbar-brand:focus {
     color: fade(white, 80%);
@@ -441,6 +445,8 @@ form .row:first-child .floating-label-form-group {
   letter-spacing: 1px;
   border-radius: 0;
   padding: 15px 25px;
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
 }
 
 .btn-lg {

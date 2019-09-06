@@ -28,6 +28,7 @@ h6 {
 
 a {
 	color: $gray-dark;
+	transition: color .5s ease; 
 	&:hover,
 	&:focus {
 		color: $brand-primary;
@@ -80,6 +81,7 @@ hr.small {
 		.navbar-brand {
 			color: white;
 			padding: 20px;
+			transition: color .5s ease; 
 			&:hover,
 			&:focus {
 				color: $white-faded;
@@ -369,6 +371,7 @@ form .row:first-child .floating-label-form-group {
 	letter-spacing: 1px;
 	border-radius: 0;
 	padding: 15px 25px;
+	transition: all .5s ease; 
 }
 
 .btn-lg {
