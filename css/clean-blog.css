@@ -45,7 +45,7 @@ a {
 }
 
 a:hover, a:focus {
-  color: #0085A1;
+  color: #402c71;
 }
 
 a img:hover, a img:focus {
@@ -77,11 +77,19 @@ hr.small {
   font-weight: 800;
 }
 
+.navbar-custom .navbar-brand:hover, .navbar-custom .navbar-brand:focus {
+  color: #402c71;
+}
+
 .navbar-custom .nav li a {
   text-transform: uppercase;
   font-size: 12px;
   font-weight: 800;
   letter-spacing: 1px;
+}
+
+.navbar-custom .nav li a:hover, .navbar-custom .nav li a:focus {
+  color: #402c71;
 }
 
 @media only screen and (min-width: 768px) {
@@ -95,15 +103,9 @@ hr.small {
     -webkit-transition: color .5s ease;
     transition: color .5s ease;
   }
-  .navbar-custom .navbar-brand:hover, .navbar-custom .navbar-brand:focus {
-    color: fade(white, 80%);
-  }
   .navbar-custom .nav li a {
     color: white;
     padding: 20px;
-  }
-  .navbar-custom .nav li a:hover, .navbar-custom .nav li a:focus {
-    color: fade(white, 80%);
   }
 }
 
@@ -132,13 +134,13 @@ hr.small {
     color: #404040;
   }
   .navbar-custom.is-fixed .navbar-brand:hover, .navbar-custom.is-fixed .navbar-brand:focus {
-    color: #0085A1;
+    color: #402c71;
   }
   .navbar-custom.is-fixed .nav li a {
     color: #404040;
   }
   .navbar-custom.is-fixed .nav li a:hover, .navbar-custom.is-fixed .nav li a:focus {
-    color: #0085A1;
+    color: #402c71;
   }
   .navbar-custom.is-visible {
     /* if the user changes the scrolling direction, we show the header */
@@ -291,7 +293,7 @@ hr.small {
 
 .post-preview > a:hover, .post-preview > a:focus {
   text-decoration: none;
-  color: #0085A1;
+  color: #402c71;
 }
 
 .post-preview > a > .post-title {
@@ -333,7 +335,7 @@ hr.small {
 }
 
 .post-preview > .post-meta > a:hover, .post-preview > .post-meta > a:focus {
-  color: #0085A1;
+  color: #402c71;
   text-decoration: underline;
 }
 
@@ -436,7 +438,7 @@ footer .copyright {
 }
 
 .floating-label-form-group-with-focus label {
-  color: #0085A1;
+  color: #402c71;
 }
 
 form .row:first-child .floating-label-form-group {
@@ -460,8 +462,8 @@ form .row:first-child .floating-label-form-group {
 }
 
 .btn-default:hover, .btn-default:focus {
-  background-color: #0085A1;
-  border: 1px solid #0085A1;
+  background-color: #402c71;
+  border: 1px solid #402c71;
   color: white;
 }
 
@@ -483,8 +485,8 @@ form .row:first-child .floating-label-form-group {
 .pager li > a:hover,
 .pager li > a:focus {
   color: white;
-  background-color: #0085A1;
-  border: 1px solid #0085A1;
+  background-color: #402c71;
+  border: 1px solid #402c71;
 }
 
 .pager .disabled > a,
@@ -515,13 +517,13 @@ ul.social-network li > a {
 ::-moz-selection {
   color: white;
   text-shadow: none;
-  background: #0085A1;
+  background: #402c71;
 }
 
 ::selection {
   color: white;
   text-shadow: none;
-  background: #0085A1;
+  background: #402c71;
 }
 
 img::-moz-selection {
@@ -540,6 +542,6 @@ img::-moz-selection {
 }
 
 body {
-  webkit-tap-highlight-color: #0085A1;
+  webkit-tap-highlight-color: #402c71;
 }
 /*# sourceMappingURL=clean-blog.css.map */
