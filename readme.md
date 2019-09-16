@@ -74,12 +74,11 @@ Make a pull request
 Additional Step if Required: WordPress Developer
 Please contact us before continuing at this point.
 
-If you’re wanting to be a WordPress Developer with us, at this point you will need to convert the theme into a working WordPress blog with the wp posts feeding onto the homepage. Record a screenshare of it and talk us through how you converted the html site into a wordpress site. 
+If you’re wanting to be a WordPress Developer with us, at this point you will need to convert the theme into a working WordPress blog with the wp posts feeding onto the homepage. Record a screenshare of it and talk us through your code and your theme structure.
 
-Ensure to use an accompanying child theme,  
-Send us a link to the video, 
-provide wp-admin username: pxswebdev and password: pxswebdev123
+
 commit the wordpress site with database export included.
+provide wp-admin username: pxswebdev and password: pxswebdev123
 
 We estimate it will take 1-2 hours. Commit logs are also required as you build the theme/template to see how you progress through the build.
 
