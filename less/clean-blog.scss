@@ -1,9 +1,12 @@
 @import "variables.scss";
 @import "mixins.scss";
+@import "helpers.scss";
 
+ 
 body {
-	font-size: 20px;
 	color: $gray-dark;
+
+	@include fluid-type(font-size, 320px, 768px, 16px, 20px);
 }
 
 p {
@@ -25,6 +28,7 @@ h6 {
 
 a {
 	color: $gray-dark;
+	transition: color .5s ease; 
 	&:hover,
 	&:focus {
 		color: $brand-primary;
@@ -60,6 +64,16 @@ hr.small {
 	z-index: 3;
 	.navbar-brand {
 		font-weight: 800;
+		padding-top: 5px; 
+		padding-bottom: 5px; 
+
+		> img {
+			height: 40px; 
+		}
+		&:hover,
+		&:focus {
+			color: $brand-primary;
+		}
 	}
 	.nav {
 		li {
@@ -68,6 +82,10 @@ hr.small {
 				font-size: 12px;
 				font-weight: 800;
 				letter-spacing: 1px;
+				&:hover,
+				&:focus {
+					color: $brand-primary;
+				}
 			}
 		}
 	}
@@ -77,20 +95,14 @@ hr.small {
 		.navbar-brand {
 			color: white;
 			padding: 20px;
-			&:hover,
-			&:focus {
-				color: $white-faded;
-			}
+			transition: color .5s ease; 
 		}
 		.nav {
 			li {
 				a {
 					color: white;
 					padding: 20px;
-					&:hover,
-					&:focus {
-						color: $white-faded;
-					}
+			 
 				}
 			}
 		}
@@ -151,42 +163,59 @@ hr.small {
 .intro-header {
 	background-color: $gray; 
 	background: no-repeat center center; 
-	background-attachment: scroll;
+	background-attachment: fixed;
+	background-size: cover; 
 	// NOTE: Background images are set within the HTML using inline CSS!
 	margin-bottom: 50px;
+
+	.container {
+		.row {
+			> div {
+				display: flex;
+				min-height: 400px;
+				align-items: center;
+			}
+		}
+	}
+
 	.site-heading,
 	.post-heading,
 	.page-heading {
 		padding: 10px 0 50px;
 		color: white;
+		width: 100%; 
+		
 		@media only screen and (min-width: 768px) {
 			padding: 10px 0;
 		}
 	}
+	
+	 
 	.site-heading,
 	.page-heading {
 		text-align: center;
 		h1 {
 			margin-top: 0;
-			font-size: 50px;
+			@include  sans-serif();
+			@include fluid-type(font-size, 320px, 768px, 50px, 80px);
+
 		}
 
 		.subheading {
-			font-size: 24px;
 			line-height: 1.1;
 			display: block;
 			font-weight: 300;
 			margin: 10px 0 0;
+			@include  sans-serif();
+
+			@include fluid-type(font-size, 320px, 768px, 18px, 24px);
 		}
-		@media only screen and (min-width: 768px) {
-			h1 {
-				font-size: 80px;
-			}
-		}
+ 
 	}
+ 
 	.post-heading {
 		h1 {
-			font-size: 35px;
+			@include fluid-type(font-size, 320px, 768px, 30px, 55px);
 		}
 		.subheading,
 		.meta {
@@ -194,9 +223,10 @@ hr.small {
 			display: block;
 		}
 		.subheading {
-			font-size: 24px;
 			margin: 10px 0 30px;
 			font-weight: 600;
+			@include  sans-serif();
+			@include fluid-type(font-size, 320px, 768px, 18px, 24px);
 		}
 		.meta {
 			font-style: italic;
@@ -206,20 +236,14 @@ hr.small {
 				color: white;
 			}
 		}
-		@media only screen and (min-width: 768px) {
-			h1 {
-				font-size: 55px;
-			}
-			.subheading {
-				font-size: 30px;
-			}
-		}
+		 
 	}
 }
 
 // Post Preview Pages
 
 .post-preview {
+	text-align: center;
 	> a {
 		color: $gray-dark;
 		&:hover,
@@ -228,13 +252,15 @@ hr.small {
 			color: $brand-primary;
 		}
 		> .post-title {
-			font-size: 30px;
 			margin-top: 30px;
 			margin-bottom: 10px;
+			@include  sans-serif();
+			@include fluid-type(font-size, 320px, 768px, 30px, 36px);
 		}
 		> .post-subtitle {
 			margin: 0;
 			font-weight: 300;
+			@include  sans-serif();
 			margin-bottom: 10px;
 		}
 	}
@@ -254,20 +280,16 @@ hr.small {
 		}
 	}
 	@media only screen and (min-width: 768px) {
-		> a {
-			> .post-title {
-				font-size: 36px;
-			}
-		}
+		text-align: left;
 	}
 }
 
 // Sections
 
 .section-heading {
-	font-size: 36px;
 	margin-top: 60px;
 	font-weight: 700;
+	@include fluid-type(font-size, 320px, 768px, 26px, 36px);
 }
 
 .caption {
@@ -363,6 +385,7 @@ form .row:first-child .floating-label-form-group {
 	letter-spacing: 1px;
 	border-radius: 0;
 	padding: 15px 25px;
+	transition: all .5s ease; 
 }
 
 .btn-lg {
@@ -416,6 +439,23 @@ form .row:first-child .floating-label-form-group {
 		}
 	}
 }
+
+
+ul.social-network {
+	list-style: none;
+	display: inline;
+	margin:0; 
+	padding: 0;
+
+	li {
+		display: inline-block; 
+		margin: 0;
+		> a {
+			display: inline-block; 
+		}
+	}
+}
+ 
 
 // -- Highlight Color Customization
 
