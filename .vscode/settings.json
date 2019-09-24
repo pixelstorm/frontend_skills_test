@@ -3,15 +3,28 @@
         {
             "format": "expanded",
             "extensionName": ".css",
-            "savePath": "~/../css/"
         },
         {
             "extensionName": ".min.css",
-            "format": "compressed",
-            "savePath": "~/../css/"
+            "format": "compressed"
         }
     ],
     "liveSassCompile.settings.excludeList": [
-        "less/*[(mixins|variables)].scss"
+        "less/*.scss",
+        "**/node_modules/**",
+        "**/wp-admin/**",
+        "**/wp-content/plugins/**",
+        "**/wp-content/themes/twentynineteen/**",
+        "**/wp-content/themes/twentyseventeen/**",
+        "**/wp-content/themes/twentysixteen/**",
+        "**/wp-content/themes/newsilver/**",
+        "**/wordpress/wp-admin/**",
+        "**/wordpress/wp-content/plugins/**",
+        "**/wordpress/wp-content/themes/twentynineteen/**",
+        "**/wordpress/wp-content/themes/twentyseventeen/**",
+        "**/wordpress/wp-content/themes/twentysixteen/**",
+        "**/wordpress/wp-content/themes/newsilver/**",
+        "**/wordpress/wp-content/themes/ideafortune/**",
+        ".vscode/**",
     ]
 }
