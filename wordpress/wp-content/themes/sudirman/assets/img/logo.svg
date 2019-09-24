@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="188"
+   height="188"
+   viewBox="0 0 188 188"
+   version="1.1"
+   id="svg8"
+   sodipodi:docname="lightning-green.svg"
+   inkscape:version="0.92.3 (unknown)">
+  <metadata
+     id="metadata14">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs12" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="861"
+     inkscape:window-height="480"
+     id="namedview10"
+     showgrid="false"
+     inkscape:zoom="1.2553191"
+     inkscape:cx="13.542373"
+     inkscape:cy="92.40678"
+     inkscape:window-x="0"
+     inkscape:window-y="32"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg8" />
+  <g
+     fill="none"
+     fill-rule="evenodd"
+     stroke="#02FBBB"
+     stroke-linecap="round"
+     stroke-linejoin="round"
+     stroke-width="3"
+     id="g6"
+     style="stroke-width:6;stroke-miterlimit:4;stroke-dasharray:none">
+    <path
+       d="M71.29 146.824a1.559 1.559 0 0 1-1.477-2.066L85.96 97.44H69.773a1.57 1.57 0 0 1-1.27-.648 1.558 1.558 0 0 1-.214-1.406L84.14 47.89a1.559 1.559 0 0 1 1.48-1.066h29.656a1.565 1.565 0 0 1 1.391 2.273l-15.391 30.105 16.934.019a1.563 1.563 0 0 1 1.262 2.485L72.55 146.184c-.301.414-.778.64-1.262.64z"
+       id="path2"
+       style="stroke-width:6;stroke-miterlimit:4;stroke-dasharray:none" />
+    <path
+       d="M2.5 93.99C2.5 43.462 43.46 2.5 93.99 2.5c50.528 0 91.489 40.962 91.489 91.49 0 50.528-40.961 91.49-91.49 91.49-50.528 0-91.49-40.962-91.49-91.49z"
+       id="path4"
+       style="stroke-width:6;stroke-miterlimit:4;stroke-dasharray:none" />
+  </g>
+</svg>
